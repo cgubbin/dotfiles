@@ -1,0 +1,1 @@
+/Users/cgubbin/.fzf/shell/key-bindings.fish

@@ -1,0 +1,115 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export BAT_THEME:Dracula
+SETUVAR --export COMPOSE_DOCKER_CLI_BUILD:1
+SETUVAR --export DOTDROP_AUTOUPDATE:no
+SETUVAR --export EXA_LA_OPTIONS:\x2d\x2dbinary\x1e\x2d\x2dlinks\x1e\x2d\x2dinode\x1e\x2d\x2dblocks
+SETUVAR --export EXA_LD_OPTIONS:\x2d\x2dlist\x2ddirs
+SETUVAR --export EXA_LE_OPTIONS:\x2d\x2dextended
+SETUVAR --export EXA_LG_OPTIONS:\x2d\x2dgit
+SETUVAR --export EXA_LT_OPTIONS:\x2d\x2dtree\x1e\x2d\x2dlevel
+SETUVAR --export EXA_STANDARD_OPTIONS:\x2d\x2dlong\x1e\x2d\x2dall\x1e\x2d\x2dgroup\x1e\x2d\x2dheader
+SETUVAR --export HOMEBREW_NO_AUTO_UPDATE:1
+SETUVAR --export LESS:\x2drF
+SETUVAR --export MANPAGER:nvim\x20\x2bMan\x21
+SETUVAR --export MANROFFOPT:\x2dc
+SETUVAR --export OPENCV_LOG_LEVEL:ERROR
+SETUVAR --export PYENV_ROOT:/Users/cgubbin/\x2epyenv
+SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_aria2c_2D_daemon:aria2c\x20\x2dD
+SETUVAR _fish_abbr_c:cargo
+SETUVAR _fish_abbr_cat:bat
+SETUVAR _fish_abbr_clock:tokei
+SETUVAR _fish_abbr_cp:cp\x20\x2driv
+SETUVAR _fish_abbr_ct:cargo\x20t
+SETUVAR _fish_abbr_df:grc\x20/bin/df\x20\x2dh
+SETUVAR _fish_abbr_du:dust
+SETUVAR _fish_abbr_e:nvim
+SETUVAR _fish_abbr_fda:fd\x20\x2dIH
+SETUVAR _fish_abbr_g:git
+SETUVAR _fish_abbr_ga:git\x20add\x20\x2dp
+SETUVAR _fish_abbr_gah:git\x20stash\x3b\x20and\x20git\x20pull\x20\x2d\x2drebase\x3b\x20and\x20git\x20stash\x20pop
+SETUVAR _fish_abbr_gc:git\x20checkout
+SETUVAR _fish_abbr_git:hub
+SETUVAR _fish_abbr_gl:hub\x20l\x20\x2d\x2dcolor\x20\x7c\x20devmoji\x20\x2d\x2dlog\x20\x2d\x2dcolor\x20\x7c\x20less\x20\x2drXF
+SETUVAR _fish_abbr_gotop:btm
+SETUVAR _fish_abbr_grep:rg
+SETUVAR _fish_abbr_helpme:bat\x20\x7e/HELP\x2emd
+SETUVAR _fish_abbr_hide_2D_cursor:tput\x20civis
+SETUVAR _fish_abbr_l:ll
+SETUVAR _fish_abbr_lg:lazygit
+SETUVAR _fish_abbr_ll:exa\x20\x2dl
+SETUVAR _fish_abbr_lll:exa\x20\x2d\x2dcolor\x3dalways\x20\x2d\x2dicons\x20\x2d\x2dgroup\x2ddirectories\x2dfirst\x20\x2d\x2dall\x20\x2d\x2dlong
+SETUVAR _fish_abbr_ls:exa
+SETUVAR _fish_abbr_m:make
+SETUVAR _fish_abbr_mkdir:mkdir\x20\x2dvp
+SETUVAR _fish_abbr_mux:tmuxinator
+SETUVAR _fish_abbr_mv:mv\x20\x2div
+SETUVAR _fish_abbr_ncdu:ncdu\x20\x2d\x2dcolor\x20dark
+SETUVAR _fish_abbr_ntop:ultra\x20\x2d\x2dmonitor
+SETUVAR _fish_abbr_o:xdg\x2dopen
+SETUVAR _fish_abbr_pr:gh\x20pr\x20create\x20\x2dt\x20\x28git\x20show\x20\x2ds\x20\x2d\x2dformat\x3d\x25s\x20HEAD\x29\x20\x2db\x20\x28git\x20show\x20\x2ds\x20\x2d\x2dformat\x3d\x25B\x20HEAD\x20\x7c\x20tail\x20\x2dn\x2b3\x29
+SETUVAR _fish_abbr_ps:procs
+SETUVAR _fish_abbr_pull:hub\x20pull
+SETUVAR _fish_abbr_push:hub\x20push
+SETUVAR _fish_abbr_rga:rg\x20\x2duu
+SETUVAR _fish_abbr_show_2D_cursor:tput\x20cnorm
+SETUVAR _fish_abbr_st:hub\x20st
+SETUVAR _fish_abbr_suod:sudo
+SETUVAR _fish_abbr_sv:sudoedit
+SETUVAR _fish_abbr_t:hyperfine
+SETUVAR _fish_abbr_ta:tmux\x20attach\x20\x2dt
+SETUVAR _fish_abbr_tad:tmux\x20attach\x20\x2dd\x20\x2dt
+SETUVAR _fish_abbr_tc:tmux\x20attach
+SETUVAR _fish_abbr_tk:tmux\x20kill\x2dsession\x20\x2dt
+SETUVAR _fish_abbr_tl:tmux\x20ls
+SETUVAR _fish_abbr_ts:tmux\x20new\x20\x2ds
+SETUVAR _fish_abbr_tt:tn\x20src/tt\x2ets
+SETUVAR _fish_abbr_v:nvim
+SETUVAR _fish_abbr_vi:nvim
+SETUVAR _fish_abbr_vim:nvim
+SETUVAR _fish_abbr_vimdiff:nvim\x20\x2dd
+SETUVAR _fish_abbr_vudo:sudoedit
+SETUVAR _fish_abbr_weather:curl\x20\x2ds\x20wttr\x2ein/Norwich\x20\x7c\x20grep\x20\x2dv\x20Follow
+SETUVAR _fish_abbr_yr:cal\x20\x2dy
+SETUVAR _fish_abbr_ytop:btm
+SETUVAR _fisher_edc_2F_bass_files:/Users/cgubbin/\x2econfig/fish/functions/__bass\x2epy\x1e/Users/cgubbin/\x2econfig/fish/functions/bass\x2efish
+SETUVAR _fisher_gazorby_2F_fish_2D_exa_files:/Users/cgubbin/\x2econfig/fish/functions/exa_git\x2efish\x1e/Users/cgubbin/\x2econfig/fish/conf\x2ed/fish\x2dexa\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/cgubbin/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/cgubbin/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/Users/cgubbin/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/Users/cgubbin/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/Users/cgubbin/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/Users/cgubbin/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/Users/cgubbin/\x2econfig/fish/functions/nvm\x2efish\x1e/Users/cgubbin/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/Users/cgubbin/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1egazorby/fish\x2dexa\x1eryoppippi/fish\x2dpoetry\x1eedc/bass\x1ejorgebucaran/nvm\x2efish
+SETUVAR _fisher_ryoppippi_2F_fish_2D_poetry_files:/Users/cgubbin/\x2econfig/fish/conf\x2ed/fish\x2dpoetry\x2efish
+SETUVAR --export fish_color_autosuggestion:555\x1ebrblack
+SETUVAR --export fish_color_cancel:\x2dr
+SETUVAR --export fish_color_command:005fd7
+SETUVAR --export fish_color_comment:990000
+SETUVAR --export fish_color_cwd:green
+SETUVAR --export fish_color_cwd_root:red
+SETUVAR --export fish_color_end:009900
+SETUVAR --export fish_color_error:ff0000
+SETUVAR --export fish_color_escape:00a6b2
+SETUVAR --export fish_color_history_current:\x2d\x2dbold
+SETUVAR --export fish_color_host:normal
+SETUVAR --export fish_color_host_remote:yellow
+SETUVAR --export fish_color_normal:normal
+SETUVAR --export fish_color_operator:00a6b2
+SETUVAR --export fish_color_param:00afff
+SETUVAR --export fish_color_quote:999900
+SETUVAR --export fish_color_redirection:00afff
+SETUVAR --export fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR --export fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR --export fish_color_status:red
+SETUVAR --export fish_color_user:brgreen
+SETUVAR --export fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_config_changed:1674035946
+SETUVAR fish_emoji_width:2
+SETUVAR fish_greeting:\U0001f41f\x20\u0434\u043e\u0431\u0440\u043e\x20\u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\x20\u043d\u0430\x20\u0440\u044b\u0431\u0430\u043b\u043a\u0443\x20\U0001f41f
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:\x1d
+SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR --export fish_user_paths:/Users/cgubbin/\x2epyenv/shims\x1e/Users/cgubbin/\x2epyenv\x1e/Users/cgubbin/\x2ecargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/sbin\x1e/bin\x1e/usr/sbin\x1e/usr/bin
+SETUVAR nvm_data:/Users/cgubbin/\x2elocal/share/nvm
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
