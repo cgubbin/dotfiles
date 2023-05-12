@@ -101,7 +101,7 @@ SETUVAR --export fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackgroun
 SETUVAR --export fish_color_status:red
 SETUVAR --export fish_color_user:brgreen
 SETUVAR --export fish_color_valid_path:\x2d\x2dunderline
-SETUVAR fish_config_changed:1674035946
+SETUVAR fish_config_changed:1680776156
 SETUVAR fish_emoji_width:2
 SETUVAR fish_greeting:\U0001f41f\x20\u0434\u043e\u0431\u0440\u043e\x20\u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\x20\u043d\u0430\x20\u0440\u044b\u0431\u0430\u043b\u043a\u0443\x20\U0001f41f
 SETUVAR fish_key_bindings:fish_default_key_bindings
@@ -110,6 +110,5 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR --export fish_user_paths:/Users/cgubbin/\x2epyenv/shims\x1e/Users/cgubbin/\x2epyenv\x1e/Users/cgubbin/\x2ecargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/sbin\x1e/bin\x1e/usr/sbin\x1e/usr/bin
-SETUVAR nvm_data:/Users/cgubbin/\x2elocal/share/nvm
-SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
+SETUVAR --export fish_user_paths:/Users/cgubbin/\x2envm\x1e/Users/cgubbin/\x2epyenv/shims\x1e/Users/cgubbin/\x2epyenv\x1e/Users/cgubbin/\x2ecargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/sbin\x1e/bin\x1e/usr/sbin\x1e/usr/bin
+SETUVAR nvm_default_version:v20\x2e0\x2e0

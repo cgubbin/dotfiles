@@ -4,7 +4,7 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
 	'eslint',
-	'sumneko_lua',
+	'lua_ls',
 	'rust_analyzer',
 	'pyright',
 	'julials',
@@ -90,6 +90,13 @@ lsp.on_attach(function(client, bufnr)
 	vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
 	vim.keymap.set("n", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 
+	lsp.buffer_autoformat()
+
 end)
 
 lsp.setup()
+
+
+vim.diagnostic.config({
+    virtual_text = true
+})

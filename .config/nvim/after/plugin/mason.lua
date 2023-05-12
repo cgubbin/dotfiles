@@ -1,7 +1,7 @@
 -- Setup mason so it can manage external tooling
 require('mason').setup()
 
-local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'sumneko_lua', 'gopls' }
+local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver', 'lua_ls', 'gopls' }
 
 -- Ensure the servers above are installed
 require('mason-lspconfig').setup {

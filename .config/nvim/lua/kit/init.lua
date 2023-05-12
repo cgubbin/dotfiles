@@ -1,4 +1,5 @@
-require("kit.packer")
+-- require("kit.packer")
+require("kit.lazy")
 require("kit.remap")
 require("kit.set")
 

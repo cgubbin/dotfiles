@@ -29,6 +29,8 @@ fish_add_path ~/.local/share/neovim/bin
 fish_add_path $HOME/.pyenv/
 fish_add_path $HOME/.pyenv/shims
 fish_add_path $HOME/.pyenv/bin
+fish_add_path $HOME/.nvm
+
 
 # Fish
 set -U fish_emoji_width 2
